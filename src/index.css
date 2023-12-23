@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins&display=swap');
+
+*{
+    background-color: rgb(14, 26, 54);
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    
+
+}
+
+.btn{
+    margin:1rem ;
+    padding:0.5rem 2rem  0.5rem 2rem;
+    border-radius: 0.3rem;
+    border:0;
+    background-color: rgb(249, 81, 81);
+
+}
+
+.btn-reset{
+    background-color: rgb(51, 120, 143);
+}
+.timer{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+}
+
+.btn-inc{
+    margin:0.2rem ;
+    padding:0.5rem 1rem  0.5rem 1rem;
+    background-color: rgb(76, 180, 128);
+    border-radius: 0.3rem;
+    border: 0;
+    font-weight: bold;
+}
